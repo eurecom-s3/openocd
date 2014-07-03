@@ -24,6 +24,7 @@ NOR_DRIVERS = \
 	lpc2900.c \
 	lpcspifi.c \
 	mdr.c \
+	msp432p4.c \
 	non_cfi.c \
 	ocl.c \
 	pic32mx.c \
@@ -50,6 +51,7 @@ NOR_DRIVERS = \
 
 noinst_HEADERS = \
 	core.h \
+	msp432p4.h \
 	cfi.h \
 	driver.h \
 	imp.h \
