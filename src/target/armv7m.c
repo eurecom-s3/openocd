@@ -101,7 +101,7 @@ static const struct {
 	{ ARMV7M_R13, "sp", 32, REG_TYPE_DATA_PTR, "general", "org.gnu.gdb.arm.m-profile" },
 	{ ARMV7M_R14, "lr", 32, REG_TYPE_INT, "general", "org.gnu.gdb.arm.m-profile" },
 	{ ARMV7M_PC, "pc", 32, REG_TYPE_CODE_PTR, "general", "org.gnu.gdb.arm.m-profile" },
-	{ ARMV7M_xPSR, "xPSR", 32, REG_TYPE_INT, "general", "org.gnu.gdb.arm.m-profile" },
+	{ ARMV7M_xPSR, "xpsr", 32, REG_TYPE_INT, "general", "org.gnu.gdb.arm.m-profile" },
 
 	{ ARMV7M_MSP, "msp", 32, REG_TYPE_DATA_PTR, "system", "org.gnu.gdb.arm.m-system" },
 	{ ARMV7M_PSP, "psp", 32, REG_TYPE_DATA_PTR, "system", "org.gnu.gdb.arm.m-system" },
